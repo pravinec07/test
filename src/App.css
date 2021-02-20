@@ -7,6 +7,129 @@
   pointer-events: none;
 }
 
+.container {
+  padding: 80px 74px 79.3px 81px;
+  background-image: linear-gradient(to top, rgba(140, 123, 209, 0.9), rgba(255, 255, 255, 0));
+}
+
+.heading {
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+  color: #ebc481;
+}
+
+.subheading {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.fullwidth{
+  width: 100%;
+}
+
+.max-width-yoga{
+  max-width: 328px;
+  padding: 0 12px;
+}
+.max-width-meditation{
+  max-width: 414px;
+}
+.max-width-nutrition{
+  max-width: 211px;
+  margin-top: 12px;
+  margin-right: 6px;
+}
+.max-width-therapy{
+  max-width: 211px;
+  margin-top: 12px;
+  margin-left: 6px;
+}
+.section-one{
+  width: 35%;
+  padding: 10px;
+}
+
+.section-two {
+  width: 30%;
+}
+
+.section-three {
+  width: 55%;
+}
+.heading-one{
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  color: #ebc481;
+}
+
+.more-btn {
+  border-radius: 34.8px;
+  background-color: #8c7bd1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+}
+
+.Know-more {
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.justify-space-between{
+  justify-content: space-between;
+}
+.position-relative{
+  position: relative;
+}
+.position-absolute{
+  position: absolute;
+}
+.yoga-know-btn{
+  width: 80%;
+  margin-left: 6%;
+  margin-bottom: 9%;
+  bottom: 0;
+}
+
+.meditation-know-btn{
+  width: 92%;
+  bottom: 0;
+  padding: 4%;
+}
+
+.know-bottom{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  margin-bottom: 15px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
